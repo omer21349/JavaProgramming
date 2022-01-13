@@ -5,10 +5,10 @@ public class BMW extends Car {
         super("BMW", model, year, price, color, mile);
     }
     public void breaking(){
-        System.out.println(brand+" is breaking");
+        System.out.println(brand+" "+model+" is breaking");
     }
     public void racing(){
-        System.out.println(brand+" is racing");
+        System.out.println(brand+" "+model+" is racing");
     }
 
     public String toString() {
