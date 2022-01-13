@@ -11,14 +11,9 @@ public class BMW extends Car {
         System.out.println(brand+" "+model+" is racing");
     }
 
-    public String toString() {
-        return "BMW{" +
-                "brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
-                ", year=" + year +
-                ", price=" + price +
-                ", color='" + color + '\'' +
-                ", mile=" + mile +
-                '}';
+    public void start(){
+        System.out.println("Call mechanic to jump start "+brand+" "+model);
     }
+
+
 }
