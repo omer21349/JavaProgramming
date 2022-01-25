@@ -28,4 +28,9 @@ public class ConstructorPractice {
 
     }
 
+
+    public static void main(){
+        System.out.println();
+    }
+
 }
